@@ -20,7 +20,7 @@ I used it to host Nodejs application.
 
 I created DockerFile for my Nodejs application, you can see in this repo.
 
-I created an Ecr Repository
+I created an Ecr Repository.
 
 I created an Ecs Cluster and configure name to the container as nodejs-container, use the 3000 port in the port mappings. I used to Application Load Balancer and listining 3000 port.
 
@@ -40,3 +40,4 @@ I created jenkins job pipeline and checked GitHub project for my github reposito
 
 I added Webhooks for integrate GitHub and Jenkins. Than i configured with my ec2 public ip because this ip using my jenkins url. I selected just push event.
 
+And ready to build and deploy.
